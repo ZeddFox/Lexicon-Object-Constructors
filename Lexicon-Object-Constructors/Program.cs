@@ -31,6 +31,7 @@ namespace Lexicon_Object_Constructors
             Console.WriteLine("Wallet 3: " + moneyThree.Amount + " " + moneyThree.Currency);
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Press any key to continue...");
+
             Console.ReadKey();
         }
     }

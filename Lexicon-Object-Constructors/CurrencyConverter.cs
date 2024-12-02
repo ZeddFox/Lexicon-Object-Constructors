@@ -105,7 +105,7 @@ namespace Lexicon_Object_Constructors
             switch (currencyIn) // First convert to SEK
             {
                 case Currency.SEK:
-                    amountOut = amountIn;
+                    amountOut = amountIn / sek;
                     break;
 
                 case Currency.EUR:
@@ -136,7 +136,7 @@ namespace Lexicon_Object_Constructors
         }
         decimal ToSEK(decimal amountIn)
         {
-            return amountIn;
+            return amountIn * sek;
         }
         decimal ToEUR(decimal amountIn)
         {
